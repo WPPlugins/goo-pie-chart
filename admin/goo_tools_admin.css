@@ -1,0 +1,92 @@
+h3.gt
+{
+	color: #777;
+}
+
+h3.gt:before
+{
+    content: "";
+	height:10px;
+	max-width: 10px;
+	display: inline-block;
+	padding: 0 20px 0 0;
+	
+}
+
+h3.active:before
+{
+	background: url('g_dot.png') no-repeat scroll;
+}
+
+h3.deactivated:before
+{
+	background: url('r_dot.png') no-repeat scroll;
+}
+
+h3.recommended:before
+{
+	background: url('b_dot.png') no-repeat scroll;
+}
+
+div.goo_tools_product
+{
+	float: left;
+	margin: 0 10px 10px 0;
+	border:1px solid #cacaca; 
+	width:180px; 
+	text-align:center; 
+	background: #ffffff
+}
+
+div.goo_tools_product_title
+{
+	padding:15px 10px 30px 10px; 
+	height: 40px;
+	font-size: 14px; 
+	font-weight:bold
+}
+
+div.goo_tools_icon
+{
+	width:100px; 
+	height:100px;
+	margin: auto; 
+	padding:0 0 50px 0; 
+	display: block;
+}
+
+div.goo_tools_desription
+{
+	padding: 0 10px 0 10px;
+	height:100px; 
+}
+
+div.goo_tools_button
+{
+	height:30px;
+	margin:5px 20px 15px 20px;
+}
+
+.goo-tools-b-span
+{
+	color: #444;
+	background:#609BF4; 
+	border-radius: 3px; 
+	display:inline-block; 
+	padding: 5px 10px;
+	transition: background .4s ease-out;
+    -webkit-transition: background .4s ease-out, color .4s;
+    -moz-transition: background .4s ease-out, color .4s;
+    -o-transition: background .4s ease-out, color .4s;
+}
+
+.goo-tools-b-span:hover
+{
+	color: #fff;
+	background:#254867;
+}
+
+.gt_clear
+{
+	clear:both;
+}
